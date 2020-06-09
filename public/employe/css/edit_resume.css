@@ -1,0 +1,48 @@
+.big-card .breadcrumb {
+    background-color: #ffffff;
+    padding: 0;
+}
+.breadcrumb li a {
+    color: #2979ff;
+}
+.breadcrumb>.active {
+    color: #999;
+}
+
+.breadcrumb>li {
+    display: inline-block;
+}
+.tab-group {
+    width: 100%;
+    border-radius: 4px;
+    background-color: #f5faf0;
+    /* overflow: hidden; */
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.20);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    margin: 0px 0px 10px 0px;
+}
+.tab-group .btn {
+    background-color: #f7f7f7;
+    color: #757575;
+    border: none;
+    box-shadow: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 15px 0px;
+    text-transform: none;
+    border-radius: 4px;
+    width: 20%;
+    margin-left: -4px !important;
+    outline: none;
+}
+
+button.btn-tab-education:hover {
+    background: #335;
+    color: #ffffff;
+    text-decoration: none;
+}
+.psec,.csec,.hsec 
+{
+    padding-left: 28px;
+}

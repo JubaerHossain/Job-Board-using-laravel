@@ -1,0 +1,112 @@
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300);
+* {
+  box-sizing: border-box;
+}
+
+/*body {
+  background: #EEEEEE;
+  color: #212121;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  padding: 4rem 2rem 2rem;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}*/
+
+.optin-container {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  width: 100%;
+}
+
+.footer .cta {
+  background: #E52B50;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-size:19px;
+  line-height: 1;
+  padding: 1.75rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  .cta {
+    line-height: 1.4;
+    padding: 1.25rem 1rem;
+  }
+}
+
+.footer form {
+  background: #9C2542;
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 1rem;
+  maring: 0;
+}
+.footer form input {
+  padding: 0.75rem;
+  margin: 0;
+}
+.footer form input[type="email"] {
+  border: none;
+  font-size: 1rem;
+  flex: 1;
+  outline: #E52B50;
+}
+.footer form input[type="email"]:focus {
+  outline: 0.25rem solid #E52B50;
+}
+.footer form input[type="submit"] {
+  background: linear-gradient(#e84263, #e52b50);
+  cursor: pointer;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  margin-top:5px;
+  padding:10px;
+  transition: all 0.25s ease-in-out;
+}
+.footer form input[type="submit"]:hover {
+  background: linear-gradient(#e84667, #e63054);
+}
+@media screen and (max-width: 600px) {
+  .footer form {
+    flex-flow: row wrap;
+  }
+  .footer form input {
+    padding: 1rem !important;
+    margin: 0 !important;
+    flex: 100%;
+  }
+  .footer form input[type="submit"] {
+    margin-top: 1rem !important;
+  }
+}
+
+.footer .hidden {
+  display: none;
+}
+
+.footer{
+margin-top:50px;  
+padding:50px;
+background-color: #333;
+color: #fff;
+}
+.footer .nav-link{
+  color: #fff;
+  font-size: 14px;
+}
+.footer-icon{
+height: 18px;
+display: inline-block;
+margin-right: 5px;
+}
+.footer-bottom{
+background-color: rgb(45, 45, 45);
+color: rgb(255, 255, 255);
+padding: 10px;
+}

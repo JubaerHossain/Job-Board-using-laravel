@@ -1,0 +1,201 @@
+nav.side-menu {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 10px 0px;
+}
+nav.side-menu ul {
+    margin: 0;
+    padding: 0;
+}
+nav.side-menu ul li {
+    list-style: none;
+}
+nav.side-menu ul li a.close {
+    display: none;
+}
+nav.side-menu ul li a {
+    color: #616161;
+    padding: 8px 20px;
+    display: block;
+    text-decoration: none;
+    border-left: 5px solid #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+.close {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+nav.side-menu li.title {
+    padding: 12px 25px 6px 25px;
+    font-size: 13px;
+    color: #8e44ad;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-heading-01 {
+    background-color: #343a40 !important;
+    color: #ffffff !important;
+}
+
+.panel-heading-01 {
+    background-color: #8d9194;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    min-height: 45px;
+    padding-top: 12px;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.panel-heading i{
+    font-size: 18px;
+    padding-right: 8px;
+}
+.panel-body-02 {
+    padding: 30px 30px 30px 30px;
+    color: #333;
+    line-height: 24px;
+}
+#resume {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11px;
+}
+.BDJApplicantsName {
+    background: #ffffff;
+    font-size: 18px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    color: #11752b;
+    padding-left: 7px;
+    padding-top: 16px;
+    padding-bottom: 3.5px;
+}
+.BDJNormalText04 {
+    background: #FFFFFF;
+    font-size: 11px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: normal;
+    padding-left: 7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.BDJHeadline01 {
+    background: #E6E6E6;
+    font-size: 12px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.my-stats .panel-body {
+    padding: 10px 15px;
+}
+.s-d-a-page {
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    border: none;
+    margin: 5px 0px 15px 0px;
+    background: #f3f3f3;
+    padding: 15px;
+}
+.s-d-a-page h4 {
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+.s-d-a-page p {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    color: #333;
+    font-size: 14px;
+}
+.stats-tab {
+    float: right;
+}
+.action-btn {
+    background-color: #fff;
+    border: 1px solid #546e7a;
+    border-radius: 0px;
+    margin: 0px 0px 10px 0px;
+}
+.action-btn .btn {
+    border: none;
+    color: #546e7a;
+    border-radius: 0px;
+}
+.action-btn .btn.active {
+    background-color: #546e7a;
+    color: #fff;
+    box-shadow: none;
+}
+.table tbody tr td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    vertical-align: middle;
+}
+.big-card {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 40px;
+    min-height: 250px;
+    overflow: hidden;
+}
+.s-d-a-page.e-resume {
+    margin: 0px 0px 15px 0px;
+    padding: 0px;
+    background: #ffffff;
+}
+.view-cv-wrapper .download-list {
+    display: inline-flex;
+    align-items: center;
+}
+.view-cv-wrapper .download-list .title {
+    float: left;
+    line-height: 24px;
+    font-size: 16px;
+    margin: 0px 7px 0px 0px;
+}
+.view-cv-wrapper .download-list ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.view-cv-wrapper .download-list ul li {
+    float: left;
+    list-style: none;
+    margin: 0px 5px;
+    display: inline;
+}
+.view-cv-wrapper .download-list ul li a {
+    text-decoration: none;
+    display: inline-block;
+}
+#resume td
+{
+    padding-bottom: 8px
+}
+#resume strong
+{
+    padding-bottom: 8px
+}
